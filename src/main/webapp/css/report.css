@@ -1,0 +1,69 @@
+#background_div{
+	
+	background-color:#f0f0f0;
+	width: 100%;
+	height: 550px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0 50px 0 50px
+}
+
+.btn_div{
+	
+	background-color:#ffffff;
+	width: 195px;
+	height: 195px;
+	border: 2px #A4A4A4 solid;
+	text-align: center;
+	margin: 10px;
+	font-size: 13px;
+	cursor: pointer;
+	
+}
+
+.btn_div img{
+	width: 150px;
+	height: 150px;
+}
+
+.gif_images{
+	display: none;
+	width: 100%
+}
+
+.report_info_modal{
+	width: 350px;
+	margin: 0;
+	padding: 0;
+}
+
+.report_info_modal_content {
+  height: auto;
+  min-height: 50%;
+  border-radius: 0;
+}
+
+#download_report_btn{
+	width: 100px
+}
+
+#report_file_name{
+	width: 100%
+}
+
+#user_projectlist_selectbox{
+	width: 100%;
+	border-radius: 5px;
+	margin-top:15px;
+	border: 1px solid #cccccc;
+	padding: 0.3em
+}
+
+.background_div-wrapper{
+	width:100%;
+	height: 100%;
+	display: flex;
+	padding-top:100px;
+	justify-content: center;
+}
